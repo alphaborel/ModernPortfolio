@@ -21,13 +21,13 @@ import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Keeps', description:
-      <p>I enjoy Google apps and love to take notes and that&#39;s why I started using Goole Keep. But there are some features I feel are missing and that&#39;s why I&#39;m building my own version.</p>
+      <p>I enjoy Google apps and love to take notes and that&#39;s why I started using Goole Keep. But there are some features I feel are missing and that&#39;s why I&#39;m building my own version. You can visit the Github <a href="https://github.com/alphaborel/Keeps" target="_blank" rel="noopener noreferrer">here</a>.</p>
     },
     { id: '2', src: full02, thumbnail: thumb02, caption: 'LoanDash', description:
       <p>The last challenge at the Galvanize School is a Capstone project, built in 10 days and using an unfamiliar language or framework. My chosen    framework was Vue.js and I enjoyed working with it very much! You can see a video demo here: <a href="https://www.youtube.com/watch?v=SMe0a-2W7s0">Loan-Dash Demo (Youtube)</a>. The code is here: <a href="https://github.com/alphaborel/capstone">Loan-Dash Github</a></p>
     },
     { id: '3', src: full03, thumbnail: thumb03, caption: 'DocDash', description:
-      <p>Here it is, my first full CRUD app. Yes, that&#39;s a technical acronym, I&#39;m not being rude! It has all the bells and whistles: login, REST routing and a database. If you&#39;re the technical type, visit the <a href="https://github.com/alphaborel/docDash" target="_blank" rel="noopener noreferrer">Github</a>. I Built the app in a couple of days and it was a challenge that I relished!</p>
+      <p>My first full CRUD app. It is hosted on Heroku, so <a href="https://docdash.herokuapp.com/" target="_blank" rel="noopener noreferrer">give it a try</a>. If you&#39;re the technical type, visit the <a href="https://github.com/alphaborel/docDash" target="_blank" rel="noopener noreferrer">Github</a>. I Built the app in a couple of days and it was a challenge that I relished!</p>
     },
     { id: '4', src: full04, thumbnail: thumb04, caption: 'WordPress Blog', description:
       <p>Ah, the quintessential <a href="http://alphaborel.com/wp/" target="_blank" rel="noopener noreferrer">WordPress Blog</a>. While I&#39;m not a WordPress programmer (yet), I have setup a multisite and am familiar with some of the plugins that extend the usefulness of WordPress. I greatly admire the WordPress community and the ease of WordPress as a CMS.</p>
@@ -106,11 +106,11 @@ class HomeIndex extends React.Component {
                             </h2>
 
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <h3>Technology isn&#39;t magic, except when it works flawlessly. To get there, you need a great team and a great plan. If you&#39;re looking to fill out your team, I&#39;m available and would love to talk. Interested in what I can do? Scroll down and see.</h3>
                     </section>
 
                     <section id="two">
-                        <h3>Right now I am working on:</h3>
+                        <h3>Right now I am learning: <a href="https://www.udemy.com/python-masterclass-course/" target="_blank" rel="noopener noreferrer">The Complete Python Masterclass</a></h3>
                     </section>
 
                     <section id="three">
